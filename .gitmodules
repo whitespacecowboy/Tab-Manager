@@ -1,6 +1,8 @@
 [submodule "tab-server"]
 	path = tab-server
 	url = https://github.com/whitespacecowboy/tab-server.git
+	branch = main
 [submodule "tab-client"]
 	path = tab-client
 	url = https://github.com/whitespacecowboy/tab-client.git
+	branch = main

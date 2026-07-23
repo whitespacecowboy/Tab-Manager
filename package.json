@@ -1,0 +1,25 @@
+{
+  "name": "tab-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"npm run dev --prefix tab-client\" \"npm run dev --prefix tab-server\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whitespacecowboy/tab-manager.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/whitespacecowboy/tab-manager/issues"
+  },
+  "homepage": "https://github.com/whitespacecowboy/tab-manager#readme",
+  "dependencies": {
+    "concurrently": "^10.0.3"
+  }
+}
